@@ -28,6 +28,8 @@ thing that were proposed during the bonding period.
 ### Other research/ findings
 - We can't package the official bindings into a pip package.
   ([reference](http://files.au.adversary.org/crypto/GPGMEpythonHOWTOen.html#do-not-use-pypi))
+    - solution: we will later package this into a debian package. currently we
+      can list bindings as requirements and install the bindings using apt.
 - Thought about the structure of the package
 - Read the guide to [structuring python code](http://docs.python-guide.org/en/latest/writing/structure/) 
 
