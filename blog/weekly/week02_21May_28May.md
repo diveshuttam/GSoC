@@ -58,12 +58,16 @@ by mentors I have changed it:
     - will have to study a bit of code and create a key class first.
 
 ## To be done coming week
-- Issues #7, #9, #3 are pending for long, though they are alomst/somewant done.
-  close them by the end of this week.
+- Issues [#7](https://github.com/EasyGnuPG/pgpg/issues/7)(bash scripting),
+  [#9](https://github.com/EasyGnuPG/pgpg/issues/9)(testing egpg2.2),
+  [#3](https://github.com/EasyGnuPG/pgpg/issues/3)(experiment egpg),
+  [#4](https://github.com/EasyGnuPG/pgpg/issues/4)(trying a few gpgme examples)
+  are pending for long. They are alomst done. Close them by the end of this week.
 
 - Create a class for Key 
   - as discussed in [pgpg/pull#18](https://github.com/EasyGnuPG/pgpg/pull/18),
-  It would be good to use oop for the key and user management.
+  It would be good to use oop for the key and user management (User Management
+  will be dealt later when/if necessary).
 
 - initial checking of keys on invocation.
   this would check for the existance of the .egpg folder and keys as per the
@@ -78,4 +82,4 @@ by mentors I have changed it:
   library with few error checking.
 
 As I am new to GPGME bindings I expect these to take some time in initial
-phase hence adding less only for this week will speed up by the coming week.
+phase hence adding less code work for this week will speed up by the coming week.
