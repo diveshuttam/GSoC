@@ -1,0 +1,17 @@
+      Fingerprint: 3F56F4C0D7E53B68D5B7908AFD26FA061ADE8781
+      Primary Key: True
+      Public key:  None
+      Secret Key: None
+      sub key:False
+      User IDs: 1
+
+$ gpg -k
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: next trustdb check due at 2019-06-02
+/root/.gnupg/pubring.kbx
+------------------------
+pub   rsa4096 2018-06-02 [SC] [expires: 2019-06-02]
+      3F56F4C0D7E53B68D5B7908AFD26FA061ADE8781
+uid           [ultimate] Danger Mouse <dm@secret.example.net>
