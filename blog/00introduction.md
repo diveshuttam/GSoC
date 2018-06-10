@@ -17,9 +17,6 @@ The following links are relevant for this project:
 - Progress
   - https://github.com/EasyGnuPG/pgpg/projects/1
 
-- Daily Reports
-  - https://github.com/diveshuttam/GSoC18/tree/gh-pages/blog/daily
-
 - Weekly Reports
   - https://github.com/diveshuttam/GSoC18/tree/gh-pages/blog/weekly
 
