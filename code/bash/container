@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# works for both subshell and in the same shell
+
+pgpgdir="/home/divesh/Desktop/gsoc/pgpg"
+containerdir="/var/ds/pgpg-bionic/"
+echo "copying $pgpgdir to $containerdir Confirm?"
+#dummy confirm just for a stop point
+read
+sudo cp -r $pgpgdir $containerdir
+cd $containerdir
+sudo ds exec make
+sudo ds shell
+cd -

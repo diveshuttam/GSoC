@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# usage . gsoc or use with an alias in .bashrc
+gsocdir="/home/divesh/Desktop/gsoc"
+echo $gsocdir
+cd $gsocdir
